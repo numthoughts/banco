@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  .main.container
+    .block-center
+      h1.display-4.m-b-2.run= "Run for City Office in the United States"
+    .block-center
+      h1= "Seriously? Yep."
+    #signup
+      form(method="POST" action="/signup")
+        div.form-group
+          label(for='first_name')
+          input#name.form-control(type='text', placeholder='First Name', name='first_name')
+        div.form-group
+          label(for='last_name')
+          input#name.form-control(type='text', placeholder='last Name', name='last_name')
+        div.form-check
+          input#us-citizen.form-check-input(type='checkbox', name="us_citizen")
+          label.form-check-label(for='us_citizen') Are you a US Citizen?
+        div.form-group
+          label(for='address')
+          input#name.form-control(type='text', placeholder='Voting Address', name='address')
+        div.form-group
+          label(for='first_name')
+          input#name.form-control(type='text', placeholder='First Name', name='first_name')
+        div.form-group
+          label(for='first_name')
+          input#name.form-control(type='text', placeholder='First Name', name='first_name')
+        button.btn.btn-primary.btn-block(type='submit') Let's Go!

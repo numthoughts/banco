@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  color: white;
+  background-color: #9689D9;
+  text-align: center;
+}
+
+#signup {
+  margin: 0 auto; 
+  width: 70%;
+}
+
+.run {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
